@@ -12,7 +12,12 @@
     <string name="password">کلمه عبور</string>
     <string name="enter">ورود</string>
     <string name="register">ثبت نام</string>
-
+    <string name="name">نام</string>
+    <string name="family">نام خانوادگی</string>
+    <string name="phone">تلفن</string>
+    <string name="mobile">شماره همراه</string>
+    <string name="email">آدرس ایمیل</string>
+    <string name="age">سن</string>
     <!--************************************Error Strings****************************************-->
     <string name="connection_fail">مشکل در برقراری سرور</string>
     <string name="invalid_username_password">نام کاربری یا کلمه عبور اشتباه است</string>

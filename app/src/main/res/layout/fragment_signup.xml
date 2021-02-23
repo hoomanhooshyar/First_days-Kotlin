@@ -1,19 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".signup.SignupFragment">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/edt_signupFragment_name"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:text="Signup Fragment"
-        android:textSize="22sp"/>
+        android:layout_marginStart="@dimen/margin_left_right_base_views_big"
+        android:layout_marginTop="@dimen/margin_top_base_views_big"
+        android:layout_marginEnd="@dimen/margin_left_right_base_views_big"
+        android:autofillHints="@string/name"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:padding="@dimen/padding_editText_normal"
+        android:textSize="@dimen/small_text_size"
+        app:layout_constraintTop_toTopOf="parent" />
 
+    <EditText
+        android:id="@+id/edt_signupFragment_family"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_left_right_base_views_big"
+        android:layout_marginTop="@dimen/margin_top_base_views_big"
+        android:layout_marginEnd="@dimen/margin_left_right_base_views_big"
+        android:autofillHints="@string/family"
+        android:hint="@string/family"
+        android:inputType="text"
+        android:padding="@dimen/padding_editText_normal"
+        android:textSize="@dimen/small_text_size"
+        app:layout_constraintTop_toBottomOf="@id/edt_signupFragment_name" />
+
+    <EditText
+        android:id="@+id/edt_signupFragment_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_left_right_base_views_big"
+        android:layout_marginTop="@dimen/margin_top_base_views_big"
+        android:layout_marginEnd="@dimen/margin_left_right_base_views_big"
+        android:autofillHints="@string/username"
+        android:hint="@string/username"
+        android:inputType="text"
+        android:padding="@dimen/padding_editText_normal"
+        android:textSize="@dimen/small_text_size"
+        app:layout_constraintTop_toBottomOf="@id/edt_signupFragment_family" />
+
+    <EditText
+        android:id="@+id/edt_signupFragment_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_left_right_base_views_big"
+        android:layout_marginTop="@dimen/margin_top_base_views_big"
+        android:layout_marginEnd="@dimen/margin_left_right_base_views_big"
+        android:autofillHints="@string/password"
+        android:gravity="end"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="@dimen/padding_editText_normal"
+        android:textSize="@dimen/small_text_size"
+        app:layout_constraintTop_toBottomOf="@id/edt_signupFragment_username" />
+    <EditText
+        android:id="@+id/edt_signupFragment_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_left_right_base_views_big"
+        android:layout_marginTop="@dimen/margin_top_base_views_big"
+        android:layout_marginEnd="@dimen/margin_left_right_base_views_big"
+        android:autofillHints="@string/email"
+        android:gravity="start"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:padding="@dimen/padding_editText_normal"
+        android:textSize="@dimen/small_text_size"
+        app:layout_constraintTop_toBottomOf="@id/edt_signupFragment_password" />
+    <EditText
+        android:id="@+id/edt_signupFragment_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_left_right_base_views_big"
+        android:layout_marginTop="@dimen/margin_top_base_views_big"
+        android:layout_marginEnd="@dimen/margin_left_right_base_views_big"
+        android:autofillHints="@string/age"
+        android:gravity="start"
+        android:hint="@string/age"
+        android:inputType="number"
+        android:padding="@dimen/padding_editText_normal"
+        android:textSize="@dimen/small_text_size"
+        app:layout_constraintTop_toBottomOf="@id/edt_signupFragment_email" />
+    <Button
+        android:id="@+id/btn_signupFragment_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/edt_signupFragment_age"
+        android:layout_marginTop="@dimen/margin_top_base_views_big"
+        android:layout_marginStart="@dimen/margin_left_right_base_views_big"
+        android:layout_marginEnd="@dimen/margin_left_right_base_views_big"
+        android:text="@string/register"
+        android:textSize="@dimen/regular_text_size"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
