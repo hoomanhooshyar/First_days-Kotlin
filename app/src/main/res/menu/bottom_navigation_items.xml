@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home"
+        app:cnb_backgroundColor="@color/white"
+        app:cnb_iconColor="@color/orange"
+        app:cnb_iconTintMode="src_in"
+        app:cnb_textColor="@color/purple_700" />
+    <item
+        android:id="@+id/menu_profile"
+        android:icon="@drawable/ic_person"
+        android:title="@string/profile"
+        app:cnb_backgroundColor="@color/white"
+        app:cnb_iconColor="@color/black"
+        app:cnb_iconTintMode="src_in"
+        app:cnb_textColor="@color/purple_700" />
+    <item
+        android:id="@+id/menu_advisors"
+        android:icon="@drawable/ic_home"
+        android:title="@string/advisors"
+        app:cnb_backgroundColor="@color/white"
+        app:cnb_iconColor="@color/black"
+        app:cnb_iconTintMode="src_in"
+        app:cnb_textColor="@color/purple_700" />
+</menu>

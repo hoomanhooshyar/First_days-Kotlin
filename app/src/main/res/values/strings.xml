@@ -1,0 +1,28 @@
+<resources>
+    <!--***********************************Public Strings****************************************-->
+    <string name="app_name">First days</string>
+    <string name="home">خانه</string>
+    <string name="profile">پروفایل</string>
+    <string name="advisors">مشاوران</string>
+    <string name="city_title">شهر:</string>
+    <string name="country_title">کشور:</string>
+    <string name="migrationTo_title">کشورهای مهاجرتی:</string>
+    <string name="test_migrationTo_value">آلمان، کانادا، آمریکا، ترکیه</string>
+    <string name="username">نام کاربری</string>
+    <string name="password">کلمه عبور</string>
+    <string name="enter">ورود</string>
+    <string name="register">ثبت نام</string>
+
+    <!--************************************Error Strings****************************************-->
+    <string name="connection_fail">مشکل در برقراری سرور</string>
+    <string name="invalid_username_password">نام کاربری یا کلمه عبور اشتباه است</string>
+    <string name="empty_username">لطفا نام کاربری خود را وارد کنید</string>
+    <string name="empty_password">لطفا کلمه عبور خود را وارد کنید</string>
+
+    <!--************************************Test Strings*****************************************-->
+    <string name="test_companyName">شرکت مهاجرتی دنیادیدگان توس</string>
+    <string name="test_city">تهران</string>
+    <string name="test_country">ایران</string>
+    <string name="test_mobile">09111111111</string>
+    <string name="test_phone">02133333333</string>
+</resources>
