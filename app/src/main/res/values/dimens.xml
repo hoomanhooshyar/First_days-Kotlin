@@ -3,7 +3,7 @@
     <dimen name="margin_top_base_views_big">32dp</dimen>
     <dimen name="margin_top_base_views_normal">16dp</dimen>
     <dimen name="margin_base_views_normal">8dp</dimen>
-    <dimen name="margin_base_views_big">16dp</dimen>
+    <dimen name="margin_left_right_base_views_big">16dp</dimen>
     <dimen name="bottom_navigation_icon_size">24dp</dimen>
     <dimen name="card_view_radius">10dp</dimen>
     <dimen name="circle_image_size">100dp</dimen>
