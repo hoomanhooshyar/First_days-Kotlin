@@ -31,4 +31,11 @@ object Utils {
             transaction.addToBackStack(null)
         transaction.commit()
     }
+    //This method checks email is valid or not
+    fun isValidEmail(email:CharSequence):Boolean{
+        return android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches()
+    }
+    fun isValidMobile(mobile:String):Boolean{
+        return (mobile.length == 11 && mobile.startsWith("0"))
+    }
 }
