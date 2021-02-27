@@ -7,7 +7,9 @@
     <string name="city_title">شهر:</string>
     <string name="country_title">کشور:</string>
     <string name="migrationTo_title">کشورهای مهاجرتی:</string>
-    <string name="test_migrationTo_value">آلمان، کانادا، آمریکا، ترکیه</string>
+    <string name="man">مرد</string>
+    <string name="woman">زن</string>
+    <string name="gender">جنسیت</string>
     <string name="username">نام کاربری</string>
     <string name="password">کلمه عبور</string>
     <string name="enter">ورود</string>
@@ -18,16 +20,29 @@
     <string name="mobile">شماره همراه</string>
     <string name="email">آدرس ایمیل</string>
     <string name="age">سن</string>
-    <!--************************************Error Strings****************************************-->
+    <string name="register_as">ثبت نام به عنوان</string>
+    <string name="advisor">مشاور</string>
+    <string name="immigrant">مهاجر</string>
+    <!--************************************Message Strings****************************************-->
     <string name="connection_fail">مشکل در برقراری سرور</string>
     <string name="invalid_username_password">نام کاربری یا کلمه عبور اشتباه است</string>
     <string name="empty_username">لطفا نام کاربری خود را وارد کنید</string>
     <string name="empty_password">لطفا کلمه عبور خود را وارد کنید</string>
-
+    <string name="empty_name">لطفا نام خود را وارد کنید</string>
+    <string name="empty_family">لطفا نام خانوادگی خود را وارد کنید</string>
+    <string name="empty_email">لطفا ایمیل خود را وارد کنید</string>
+    <string name="empty_age">لطفا سن خود را وارد کنید</string>
+    <string name="empty_mobile">لطفا شماره همراه خود را وارد کنید</string>
+    <string name="invalid_mobile">شماره همراه شما نامعتبر است</string>
+    <string name="invalid_email">ایمیل شما نامعتبر است</string>
+    <string name="short_password">کلمه عبور حداقل باید 6 کاراکتر باشد</string>
+    <string name="illegal_age">حداقل سن باید 15 سال باشد</string>
+    <string name="signup_successful">ثبت نام با موفقیت انجام شد</string>
     <!--************************************Test Strings*****************************************-->
     <string name="test_companyName">شرکت مهاجرتی دنیادیدگان توس</string>
     <string name="test_city">تهران</string>
     <string name="test_country">ایران</string>
     <string name="test_mobile">09111111111</string>
     <string name="test_phone">02133333333</string>
+    <string name="test_migrationTo_value">آلمان، کانادا، آمریکا، ترکیه</string>
 </resources>
