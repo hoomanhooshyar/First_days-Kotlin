@@ -1,9 +1,6 @@
 package ir.intechdev.firstdays.api
 
-import ir.intechdev.firstdays.model.Login
-import ir.intechdev.firstdays.model.Result
-import ir.intechdev.firstdays.model.Signup
-import ir.intechdev.firstdays.model.User
+import ir.intechdev.firstdays.model.*
 import retrofit2.Call
 import retrofit2.http.Body
 import retrofit2.http.Field
@@ -16,4 +13,7 @@ interface ApiService {
 
     @POST("authentication/signup")
     fun signup(@Body user:Signup):Call<Result>
+
+    @POST("authentication/get_user_data")
+    fun getUserData():Call<DtoUser>
 }

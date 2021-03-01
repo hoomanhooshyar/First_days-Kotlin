@@ -23,6 +23,7 @@
     <string name="register_as">ثبت نام به عنوان</string>
     <string name="advisor">مشاور</string>
     <string name="immigrant">مهاجر</string>
+    <string name="add_picture">افزودن عکس</string>
     <!--************************************Message Strings****************************************-->
     <string name="connection_fail">مشکل در برقراری سرور</string>
     <string name="invalid_username_password">نام کاربری یا کلمه عبور اشتباه است</string>
@@ -38,6 +39,7 @@
     <string name="short_password">کلمه عبور حداقل باید 6 کاراکتر باشد</string>
     <string name="illegal_age">حداقل سن باید 15 سال باشد</string>
     <string name="signup_successful">ثبت نام با موفقیت انجام شد</string>
+    <string name="not_login">برای مشاهده این صفحه ابتدا باید وارد برنامه بشوید</string>
     <!--************************************Test Strings*****************************************-->
     <string name="test_companyName">شرکت مهاجرتی دنیادیدگان توس</string>
     <string name="test_city">تهران</string>

@@ -23,7 +23,7 @@ class ApiClient {
                         var oldRequest = it.request()
                         var newRequestBuilder = oldRequest.newBuilder()
                         if (Utils.myToken != null) {
-                            newRequestBuilder.addHeader("token", Utils.myToken!!)
+                            newRequestBuilder.addHeader("HTTP_TOKEN", Utils.myToken!!)
                         }
                         newRequestBuilder.addHeader("Accept", "application/json")
                         newRequestBuilder.method(oldRequest.method, oldRequest.body)
